@@ -13,4 +13,7 @@ O sistema se encarrega de registrar os sorteios realizados e classificar os núm
 
 ## Interface
 
-![Interface do Simulador](./assets/interface.png)
+<p align="center">
+  <img src="./assets/interface.png" alt="Sublime's custom image"/>
+</p>
+<!-- ![Interface do Simulador](./assets/interface.png) -->
