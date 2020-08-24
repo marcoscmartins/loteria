@@ -14,5 +14,5 @@ O sistema se encarrega de registrar os sorteios realizados e classificar os núm
 ## Interface
 
 <p align="center">
-  <img src="./assets/interface.png" alt="Sublime's custom image"/>
+  <img src="./assets/interface.png" alt="Interface da aplicação"/>
 </p>
