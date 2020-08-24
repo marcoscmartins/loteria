@@ -1,0 +1,54 @@
+@-ms-viewport {
+    width: device-width;
+}
+@-o-viewport {
+    width: device-width;
+}
+@viewport {
+    width: device-width;
+    zoom: 1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+form {
+    width: 50%;
+    float: left;
+    margin: 2em 0 0 5%;
+}
+.calcNode,
+.resultNode {
+    display: inline-block;
+    width: 3em;
+    padding: 0.5em 0 0 0;
+    margin: 3px 3px;
+    background: gainsboro ;
+    color: dimgrey;
+    font-size: 1.2em;
+}
+.divResultado {
+    float: right;
+    width: 35%;
+    margin: 2em 5% 0 5%;
+    text-align: center;
+}
+.buttons {
+    margin-top: 3em;
+    text-align: center;
+}
+.btn {
+    margin-top: 0.5em;
+}
+.qtd {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    padding: 0.2em;
+    margin-right: 0.5em;
+    background: GhostWhite;
+    color: DimGrey;
+    font-size: 0.75em;
+}

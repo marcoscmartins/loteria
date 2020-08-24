@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="icon" type="image/png" href="favicon.png">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="main.js"></script>
+        <title>Simulador de Sorteios</title>
+    </head>
+    <body>
+        <header>
+            <div class="jumbotron jumbotron-fluid text-center">
+                <div class="container">
+                    <h1 class="display-3">Simulador de Sorteios</h1>
+                    <p class="lead">Agora você tem as probabilidades perfeitas para realizar seu jogo na loteria.</p>
+                    <hr class="m-y-2">
+                    <span id="helpBlock" class="help-block">Insira o número de sorteios e o tipo de jogo para simular.</span>
+                </div>
+            </div>
+        </header>
+        <form>
+            <fieldset class="form-group">
+                <label for="formGroupExampleInput">Número de sorteios</label>
+                <input type="number" class="form-control" maxlength="10" id="numero" placeholder="1" autofocus>
+            </fieldset>
+            <div class="form-group">
+              <label for="sel1">Tipo de sorteio</label>
+              <select class="form-control" id="lista">
+                <option value="megasena" selected>Mega Sena</option>
+                <option value="lotomania">Lotomania</option>
+                <option value="lotofacil">Lotofácil</option>
+                <option value="quina">Quina</option>
+              </select>
+            </div>
+            <fieldset class="buttons">
+                <button type="submit" class="btn btn-lg btn-default" onclick="calc(); return false;">Calcular</button>
+                <button type="reset" class="btn btn-lg btn-danger" onclick="limpa();">Limpar</button>
+            </fieldset>
+        </form>
+        <div class="divResultado" id="result">
+            <label for="formGroupExampleInput2">Confira aqui o resultado da simulação</label>
+            <br>
+            <label class="resultNode calcNode" id="resultado">...</label>
+        </div>
+    </body>
+</html>
